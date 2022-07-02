@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* || General setup */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #ffffff;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+
+h1, h2 {
+  color: purple;
+}
+h3 {
+  color: purple;
+}
+p {
+  color: purple;
+}
+
+ul {
+  border: 2px solid purple;
+}
+
+ol {
+  border: 2px solid purple;
+}
+
+ol, ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+li {
+  color: purple;
+}
+h1, strong {
+  color: purple;
+}
+
+em {
+  color: blue;
+}
+/*style*/
+header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+main, header, nav, aside, footer, section {
+  background-color: rgba(125,0,125,0.5);
+  padding: 1%;
+}
+/* || main layout */
+main {
+  display: flex;
+}
+
+article {
+  flex: 4;
+  padding: 1%;
+  background-color: #ff8ff0;
+}
+
+aside {
+  flex: 4;
+  margin-left: 10px;
+  background-color: #ff8ff0;
+
+}
+
+aside li {
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 10px;
+}

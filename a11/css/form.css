@@ -49,7 +49,7 @@ input:active + label, label[for]:focus, label[for]:active {
 we place the id formcol1 in front of the li element in order to limit this 
 formatting to the top part of the form */
 #formcol1 input.reqfield {
-  background:#BBB;
+  background:#CCC;
 }
 #formcol1 li {   
 list-style:none;
